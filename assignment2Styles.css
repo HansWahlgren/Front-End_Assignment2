@@ -1,0 +1,192 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    width: 1024px; 
+    height: 768px;
+    margin: 20px auto;
+}
+
+/*------------------------------------------------- HEADER CONTENT ------------------------------------------------------ */
+header {
+    background-color: rgb(212, 127, 0);
+    width: 1024px;
+    height: 120px;
+    margin: auto 0px;
+    position: relative;
+    outline: 1px solid;
+}
+
+header h1 {
+    padding-top: 24px;
+    text-align: center;
+    width: 280px;
+    float: left;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+header nav {
+    width: 420px;
+    height: 120px;
+    position: absolute;
+    left: 280px;
+}
+
+header nav ul {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    height: 120px;
+}
+
+header nav li {
+    top: 0px;
+    width: 138px;
+    height: 120px;
+    line-height: 120px;
+    background-color: royalblue;
+   /* background-color: rgb(40, 42, 153); */
+    list-style-type: none ;
+    text-align: center;
+    float: left;
+    outline: 1px solid;
+}
+
+header nav li a{
+    text-decoration: none;
+}
+
+header nav li a:link {
+    color: rgb(0, 0, 0);
+}
+    
+    /* visited link */
+header nav li a:visited {
+    color: rgb(36, 36, 36);
+}
+    
+    /* mouse over link */
+header nav li a:hover {
+    color: rgb(255, 255, 255);
+}
+    
+    /* selected link */
+header nav li a:active {
+    color: rgb(0, 0, 0);
+}
+
+/*------------------------------------------------- MAIN CONTENT ------------------------------------------------------ */
+section{
+    background-color: rgb(255, 218, 116);
+    width: 740px;
+    height: 528px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+    overflow: auto;
+    outline: 1px solid;
+}
+
+section h2{
+    width: 200px;
+    height: 60px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 60px;
+}
+
+section p{
+    width: 660px;
+    height: 70px;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+section article{
+    width: 310px;
+    height: 265px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-top: 20px;
+    float: left;
+    overflow: auto;
+}
+
+section article p{
+    width: 260px;
+    height: auto;
+    padding-top: 10px;
+    overflow: auto;
+}
+
+section article:first-of-type p:nth-of-type(2)
+{
+    color: blue;
+    font-weight: bold;
+}
+
+img {
+    width: 180px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------------------- ASIDE CONTENT ------------------------------------------------------ */
+aside{
+    width: 284px;
+    background-color: rgb(155, 207, 160);
+    height: 528px;
+    float: left;
+    outline: 1px solid;
+}
+
+aside h2{
+    text-align: center;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 20px 30px 0px 30px;
+}
+
+aside ol{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 0px 30px 0px 30px;
+}
+
+aside ul li{
+    color: purple;
+}
+
+aside ul li:nth-of-type(2)
+{
+    color: red;
+}
+
+aside li:nth-of-type(2) li
+{
+    color: red;
+}
+
+aside li:nth-of-type(2) li:nth-of-type(2)
+{
+    color: purple;
+}
+
+/*------------------------------------------------- FOOTER CONTENT ------------------------------------------------------ */
+footer{
+    background-color: rgb(105, 1, 146);
+    width: 1024px;
+    height: 120px;
+    overflow: auto;
+    outline: 1px solid;
+    text-align: center;
+    line-height: 120px;
+}
+
